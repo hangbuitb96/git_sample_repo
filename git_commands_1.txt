@@ -1,10 +1,16 @@
 git status -> prints the status of the Git Repository
 git init -> initializes the Git Repository
+
+git config -> provides the authorization to ONE git repository
+git config -- global -> provides the authorization to ALL git repositories (globally)
 git config --global user.name "hang"
 git config --global user.email "hangbuitb96@gmail.com"
 git config user.name "hang"
 git config user.email "hangbuitb96@gmail.com"
-git add
-git commit -m ""
-git log
-git diff <filename>
+
+git add -> add file to staging environment
+git commit -m "" -> commit file to local Git Repo
+git log -> check file log history
+git diff <filename> -> check changes made to file with existing file
+git remote add origin <url_of_github_repo> -> establish connection to the remote Github Repo
+git push origin main -> push to master branch
