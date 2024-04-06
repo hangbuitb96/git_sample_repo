@@ -14,3 +14,22 @@ git log -> check file log history
 git diff <filename> -> check changes made to file with existing file
 git remote add origin <url_of_github_repo> -> establish connection to the remote Github Repo
 git push origin main -> push to master branch
+
+Scenario 1:
+	- First release -> done
+	- Second release: 
+	+ 2 new features
+	+ 2 developers
+	- Third release:
+	+ 1 new feature
+	+ 1 developer
+	
+Scenario 2:
+	- 2 automation testers:
+	+ Tester A: enhance the framework (ex. Change functions/methods)
+	+ Tester B: automating TCs
+	- Tester A: merge code to main
+	- Tester B: pull from main to private branch, modify TCs, then merge code to main
+
+Scenario 3: 
+	- 1 developer, 2 different features for maybe 2 releases
