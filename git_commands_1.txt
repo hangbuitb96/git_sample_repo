@@ -1,13 +1,3 @@
-git status -> prints the status of the Git Repository
-git init -> initializes the Git Repository
-
-git config -> provides the authorization to ONE git repository
-git config -- global -> provides the authorization to ALL git repositories (globally)
-git config --global user.name "hang"
-git config --global user.email "hangbuitb96@gmail.com"
-git config user.name "hang"
-git config user.email "hangbuitb96@gmail.com"
-
 git add -> add file to staging environment
 git commit -m "" -> commit file to local Git Repo
 git log -> check file log history
@@ -33,3 +23,5 @@ Scenario 2:
 
 Scenario 3: 
 	- 1 developer, 2 different features for maybe 2 releases
+
+-----------------------------------------------------------
